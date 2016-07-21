@@ -33,4 +33,16 @@ function initQueues() {
         if (err) throw err;
         //console.log(job.data);
     });
+    queue1.enqueue('uppercase', { text: 'job:UPrerqerqerqwerqwer ' }, function (err, job) {
+        if (err) throw err;
+        //console.log(job.data);
+    });
+    queue1.enqueue('uppercase', { text: 'job:UPrerqerqerqwerqwer ' }, function (err, job) {
+        if (err) throw err;
+        //console.log(job.data);
+    });
+    queue1.enqueue('uppercase', { text: 'job:UPrerqerqerqwerqwer ' }, function (err, job) {
+        if (err) throw err;
+        //console.log(job.data);
+    });
 }
