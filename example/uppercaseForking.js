@@ -1,9 +1,7 @@
 module.exports = function (params, callback) {
-    function waitALittle () {
-        setTimeout(function () {}, 3000);
-    }
-    waitALittle();
-    //do stuffs
+
+    for (var i = 0;i<20000000000;i++) {}
+    console.log("end loop....");
     return {
         err: null,
         data: params.text.toUpperCase(),
